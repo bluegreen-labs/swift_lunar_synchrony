@@ -1,0 +1,13 @@
+citHeader("To cite ecmwfr in publications use:")
+
+citEntry(entry = "Misc",
+         title = "Size dependent prey preferences drive moonlight synchrony across three western palearctic swift species",
+         author = personList(as.person("Koen Hufkens")),
+         year = "2023",
+         doi = "10.5281/zenodo.xxx",
+         url = "https://bluegreen-labs.github.io/swift_lunar_synchrony/",
+         textVersion  =
+           paste("Hufkens et al. (2023).",
+                 "Size dependent prey preferences drive moonlight synchrony across three western palearctic swift species",
+                 "https://doi.org/10.5281/zenodo.xxx")
+)

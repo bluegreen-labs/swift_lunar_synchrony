@@ -1,0 +1,110 @@
+Package: SwiftLunarSynchrony
+Title: Swift lunar synchrony analysis
+Version: 1.0
+Authors@R: c(
+    person(
+      given = "Koen",
+      family = "Hufkens",
+      email = "koen.hufkens@gmail.com",
+      role = c("aut", "cre"),
+      comment = c(ORCID = "0000-0002-5070-8109")
+    ),
+    person(
+      given = "Christoph M.",
+      family = "Meier",
+      role = c("ctb"),
+      comment = c(ORCID = "0000-0001-9584-2339")
+    ),
+    person(
+      given = "Ruben",
+      family = "Evens",
+      role = c("ctb"),
+      comment = c(ORCID = "0000-0002-2602-4516")
+    ),
+    person(
+      given = "Josefa",
+      family = "Arán Paredes",
+      role = c("ctb"),
+      comment = c(ORCID = "0009-0006-7176-2311")
+    ),
+    person(
+      given = "Hakan",
+      family = "Karaardiç",
+      role = c("ctb")
+    ),
+    person(
+      given = "Stef",
+      family = "Vercauteren",
+      role = c("ctb")
+    ),
+    person(
+      given = "Ann",
+      family = "Van Gijsel",
+      role = c("ctb")
+    ),
+    person(
+      given = "James W.",
+      family = "Fox",
+      role = c("ctb")
+    ),
+    person(
+      given = "Carlos Miguel",
+      family = " Pacheco",
+      role = c("ctb")
+    ),
+    person(
+      given = "Luis F.",
+      family = "Pascoal da Silva",
+      role = c("ctb")
+    ),
+    person(
+      given = "Sandra",
+      family = "Fernandes",
+      role = c("ctb")
+    ),
+    person(
+      given = "Pedro",
+      family = "Henriques",
+      role = c("ctb")
+    ),
+    person(
+      given = "Gonçalo",
+      family = "Elias",
+      role = c("ctb")
+    ),
+    person(
+      given = "Luís T.",
+      family = "Costa",
+      role = c("ctb")
+    ),
+    person(
+      given = "Martin",
+      family = "Poot",
+      role = c("ctb")
+    ),
+    person(
+      given = "Lyndon",
+      family = "Kearsley",
+      role = c("ctb"),
+      comment = c(ORCID = "0000-0003-4526-1872")
+    ),
+    person(given = "BlueGreen Labs",
+    role = c("cph", "fnd"))
+  )
+Description:  Analysis of moonlight synchrony in flight 
+  altitude and activity across three western palearctic swift species
+URL: https://github.com/bluegreen-labs/swift_lunar_synchrony
+License: CC-BY 4.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends:
+    R (>= 4.2)
+Imports:
+    tidyverse,
+    glmmTMB,
+    report,
+    lme4,
+    here
+Suggests:
+    rmarkdown

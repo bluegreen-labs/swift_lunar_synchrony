@@ -1,0 +1,13 @@
+template:
+  package: bgtemplate
+  params:
+    mathjax: true
+
+navbar:
+  structure:
+    left:  [home, intro, articles, tutorials, news]
+    right: [github]
+  components:
+    twitter:
+      icon: "fab fa-twitter fa-lg"
+      href: https://twitter.com/bluegreen_labs
