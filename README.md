@@ -8,7 +8,18 @@ Recent studies have suggested the presence of moonlight mediated behaviour in av
 
 ![](overview.png)
 
-## Data structure
+> You are required to cite both the Zenodo data repository as well as the BioRXiv pre-print when using this data, as: Hufkens et al. 2023. xxx and Hufkens et al. Moonlight synchronous flights across three western palearctic swifts mirror size dependent prey preferences, BioRXiv xyz.
+
+## Use
+
+Clone or download the project [zip file](https://github.com/bluegreen-labs/swift_lunar_synchrony/archive/refs/heads/main.zip).
+
+```bash
+git clone https://github.com/bluegreen-labs/swift_lunar_synchrony.git
+```
+The repository is an `R` project and can be opened in [RStudio](https://posit.co/download/rstudio-desktop/), which will set the correct relative path. The project is
+
+### Data structure & analysis
 
 Analysis data is saved as compressed R serial files (.rds) in the [`data` folder](https://github.com/bluegreen-labs/swift_lunar_synchrony/tree/main/data). Scripts to reproduce the main statistical results are provided in the [`analysis` folder](https://github.com/bluegreen-labs/swift_lunar_synchrony/tree/main/analysis). Data contain the below fields:
 
