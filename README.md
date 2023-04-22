@@ -6,11 +6,7 @@ Koen Hufkens, Christoph M. Meier, Ruben Evens, Josefa Arán Paredes, Hakan Karaa
 
 Recent studies have suggested the presence of moonlight mediated behaviour in avian aerial insectivores, such as swifts. At the same time swift species also show differences in prey (size) preferences. Here, we use the combined analysis of state-of-the-art data logger data across three swift species, the Common, Pallid and Alpine swifts, to quantify flight height and activity responses to crepuscular and nocturnal light conditions. Our results show a significant response in flight heights to moonlight illuminance for Common and Pallid swifts, while a moonlight driven response is absent in Alpine swifts. Swift flight responses followed the size dependent altitude gradient of their insect prey. We show a weak relationship between nighttime illuminance driven responses and twilight ascending behaviour, suggesting a decoupling of both crepuscular and nighttime behaviour. We suggest that swifts optimise their flight behaviour to adapt to favourable nighttime light conditions, driven by light responsive and size dependent vertical insect stratification and weather conditions.
 
-> You are required to cite both the Zenodo data repository as well as the BioRXiv pre-print when using this data, as: 
-
-> Hufkens et al. Moonlight synchronous flights across three western palearctic swifts mirror size dependent prey preferences. https://doi.org/10.5281/zenodo.7814214
-
-> Hufkens et al. Moonlight synchronous flights across three western palearctic swifts mirror size dependent prey preferences. BioRXiv https://doi.org/xyz
+> You are required to cite both the Zenodo data repository as well as the BioRXiv pre-print when using this data, as: Hufkens et al. Moonlight synchronous flights across three western palearctic swifts mirror size dependent prey preferences. https://doi.org/10.5281/zenodo.7814214, and Hufkens et al. Moonlight synchronous flights across three western palearctic swifts mirror size dependent prey preferences. BioRXiv https://doi.org/xyz.
 
 ![](overview.png)
 
