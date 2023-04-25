@@ -1,5 +1,7 @@
 # Moonlight synchronous flights across three western palearctic swifts mirror size dependent prey preferences
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7814214.svg)](https://doi.org/10.5281/zenodo.7814214)
+
 Koen Hufkens, Christoph M. Meier, Ruben Evens, Josefa Arán Paredes, Hakan Karaardiç, Stef Vercauteren, Ann Van Gijsel, James W. Fox, Carlos Miguel Pacheco, Luis P. da Silva, Sandra Fernandes, Pedro Henriques, Gonçalo Elias, Luís T. Costa, Martin Poot, Lyndon Kearsley
 
 ## Abstract
