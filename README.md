@@ -8,7 +8,7 @@ Recent studies have suggested the presence of moonlight mediated behaviour in av
 
 > You are required to cite both the Zenodo data repository as well as the BioRXiv pre-print when using the project data, please refer to the data as: Hufkens et al. Moonlight synchronous flights across three western palearctic swifts mirror size dependent prey preferences. https://doi.org/10.5281/zenodo.7814214, and Hufkens et al. Moonlight synchronous flights across three western palearctic swifts mirror size dependent prey preferences. BioRXiv https://doi.org/xyz.
 
-![](overview.png)
+![](https://github.com/bluegreen-labs/swift_lunar_synchrony/raw/main/vignettes/figures/Figure_02_flight_profiles_small.png)
 
 ## Use
 
