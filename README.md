@@ -1,6 +1,6 @@
 # Moonlight synchronous flights across three western palearctic swifts mirror size dependent prey preferences
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7814214.svg)](https://doi.org/10.5281/zenodo.7814214)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7814214.svg)](https://doi.org/10.5281/zenodo.7814214) [![](https://raw.githubusercontent.com/bluegreen-labs/swift_lunar_synchrony/main/BioRxiv_logo.png)](https://doi.org/10.1101/2023.04.25.538243)
 
 Koen Hufkens, Christoph M. Meier, Ruben Evens, Josefa Arán Paredes, Hakan Karaardiç, Stef Vercauteren, Ann Van Gijsel, James W. Fox, Carlos Miguel Pacheco, Luis P. da Silva, Sandra Fernandes, Pedro Henriques, Gonçalo Elias, Luís T. Costa, Martin Poot, Lyndon Kearsley
 
