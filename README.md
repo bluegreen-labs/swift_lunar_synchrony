@@ -35,6 +35,10 @@ Analysis data is saved as compressed R serial files (.rds) in the [`data` folder
 | stages           | stages of the day (day, dawn, dusk, night)                                           |
 | altbin           | Altitude bin, if data is low or high (0, 1)                                          |
 
+## Related work
+
+This study is follow up work of [our paper in Oikos](https://onlinelibrary.wiley.com/doi/10.1111/oik.08594) titled: "The aeroecology of atmospheric convergence zones: the case of pallid swifts". You can find this dataset on Zenodo [here](https://zenodo.org/record/6320888)
+
 ## Licensing
 
 Be mindful of the CC-BY 4.0 license of the data and figures. Reuse is permitted on the condition of proper attribution and documentation of any changes.
