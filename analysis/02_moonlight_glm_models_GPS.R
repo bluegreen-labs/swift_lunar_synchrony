@@ -9,33 +9,7 @@ library(report)
 
 #---- 0. read in data and subset ----
 
-if(!file.exists("data/curated/data_GPS.rds")){
-
-  # read in data, retain GPS night values
-  # convert data types for modelling
-  df <- readRDS("data/data_annotated.rds") |>
-    filter(
-      sensor == "GPS",
-      stages == "night",
-      ocean_dates == "Continental"
-    ) |>
-    mutate(
-      species = factor(species),
-      tag = factor(tag)
-    ) |>
-    select(
-      altbin,
-      moon_illuminance,
-      species,
-      tag
-    )
-
-  # save and compress for reproducibility
-  saveRDS(df, file = "data/curated/data_GPS.rds", compress = "xz")
-
-} else {
-  df <- readRDS("data/curated/data_GPS.rds")
-}
+df <- readRDS("data/curated/data_GPS.rds")
 
 #---- 1. fit model ----
 
