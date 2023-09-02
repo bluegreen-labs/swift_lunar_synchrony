@@ -9,43 +9,7 @@ library(report)
 
 #---- 0. read in data and subset ----
 
-if(!file.exists("data/curated/data_MDL.rds")){
-
-  # read in data and subset the multi data logger
-  # select only night values
-  # drop those with missing lagged altitude values
-  # at the start of a day centered on midnight
-  # and not belonging to stationary periods (group = 0)
-  df <- readRDS("data/data_annotated.rds") |>
-    filter(
-      sensor == "MDL",
-      !is.na(lag_altitude),
-      stages == "night",
-      group != 0
-    )
-
-  # Scaling needs to happen to make sure
-  # that these are processed correctly between tags/species
-  # as the changes in flight height are tag/species specific
-  df <- df |>
-    group_by(tag) |>
-    mutate(
-      lag_altitude = as.vector(scale(lag_altitude))
-    ) |>
-    select(
-      altbin,
-      moon_illuminance,
-      species,
-      lag_altitude,
-      tag
-    )
-
-  # save and compress for reproducibility
-  saveRDS(df, file = "data/curated/data_MDL.rds", compress = "xz")
-
-} else {
-  df <- readRDS("data/curated/data_MDL.rds")
-}
+df <- readRDS("data/curated/data_MDL.rds")
 
 #---- 1. fit model ----
 
